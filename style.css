@@ -1,0 +1,97 @@
+/* a minimalist set of CSS resets */
+
+.hidden {
+  display: none;
+}
+
+/* default to border-box */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: lightsteelblue;
+  color: black; 
+}
+
+h1 {
+  font-family: arial, sans-serif; 
+}
+
+/* button design */
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+#button1 {
+    background: lightgreen;
+}
+
+#button2 {
+    background: lightblue;
+}
+
+#button3 {
+    background: pink;
+}
+
+#button4 {
+    background: lightyellow;
+}
+
+#button5 {
+    background: lightsalmon;
+}
+
+#button6 {
+    background: plum;
+}
+
+#button1:active, #button1.lit {
+    background-image: url("https://cdn.glitch.global/6b2e5162-ffef-4def-a4ba-0f7003d06eb4/forest?v=1648874824027");
+}
+
+#button2:active, #button2.lit {
+    background-image: url("https://cdn.glitch.global/6b2e5162-ffef-4def-a4ba-0f7003d06eb4/sky.jpg?v=1648876745992");
+}
+
+#button3:active, #button3.lit {
+    background-image: url("https://cdn.glitch.global/6b2e5162-ffef-4def-a4ba-0f7003d06eb4/sakura.jpg?v=1648874824130");
+}
+
+#button4:active, #button4.lit {
+    background: url("https://cdn.glitch.global/6b2e5162-ffef-4def-a4ba-0f7003d06eb4/yellowflowers.webp?v=1648877088829");
+}
+
+#button5:active, #button5.lit {
+    background: url("https://cdn.glitch.global/6b2e5162-ffef-4def-a4ba-0f7003d06eb4/orange.jpg?v=1648876949247");
+}
+
+#button6:active, #button6.lit {
+    background: url("https://cdn.glitch.global/6b2e5162-ffef-4def-a4ba-0f7003d06eb4/purpleflower.jpg?v=1648876878050");
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
