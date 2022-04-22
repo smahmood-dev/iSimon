@@ -1,6 +1,6 @@
 # Pre-work - *iSimon*
 
-**iSimon** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
+**iSimon** is a web-based light & sound memory game.  
 
 Submitted by: **Sarmad Mahmood**
 
@@ -35,7 +35,7 @@ The following **optional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
+![](http://g.recordit.co/XudMoAHhm5.gif)
 ![](gif2-link-here)
 ![](gif3-link-here)
 ![](gif4-link-here)
