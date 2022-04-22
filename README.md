@@ -12,7 +12,7 @@ Link to project: https://isimon.glitch.me
 
 The following **required** functionality is complete:
 
-* [X] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+* [X] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo appCancel changes
 * [X] "Start" button toggles between "Start" and "Stop" when clicked. 
 * [X] Game buttons each light up and play a sound when clicked. 
 * [X] Computer plays back sequence of clues including sound and visual cue for each button
@@ -35,8 +35,11 @@ The following **optional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
+General Playthrough
 ![](http://g.recordit.co/XudMoAHhm5.gif)
-![](gif2-link-here)
+Demonstrating Incorrect Guesses
+![](http://g.recordit.co/GbaP1XW0zo.gif)
+Demonstrating Time Limit
 ![](gif3-link-here)
 ![](gif4-link-here)
 
