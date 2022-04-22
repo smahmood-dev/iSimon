@@ -10,7 +10,8 @@ var tonePlaying = false;
 var clueHoldTime = 1000; //how long to hold each clue's light/sound
 var volume = 0.5;  //must be between 0.0 and 1.0
 var guessCounter = 0;
-var attempts = 3
+var attempts = 3;
+var timer;
 
 // Game State Functions
 
@@ -34,6 +35,7 @@ function stopGame(){
     // swap the Start and Stop buttons
     document.getElementById("startBtn").classList.remove("hidden");
     document.getElementById("stopBtn").classList.add("hidden");
+    clearTimeout(timer);
 }
 
 function loseGame(){
@@ -81,6 +83,7 @@ function guess(btn){
       }
       else{
         progress++;
+        clearTimeout(timer); // resets the 10 second round timer
         playClueSequence();
       }
     }
@@ -101,6 +104,7 @@ function guess(btn){
 function playClueSequence(){
   guessCounter = 0;
   clueHoldTime *= (0.93**progress); // reduce clue duration by 7% after every subsequent round
+  timer = setTimeout(loseGame, 10000); // gives player 10 seconds to match the correct pattern every round 
   let delay = nextClueWaitTime; // set delay to initial wait time
   for(let i=0;i<=progress;i++){ // for each clue that is revealed so far
     console.log("play single clue: " + pattern[i] + " in " + delay + "ms")
