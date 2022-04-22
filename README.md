@@ -34,14 +34,12 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough (GIF)
 
-If you recorded multiple GIFs for all the implemented features, you can add them here:
-General Playthrough
-![](http://g.recordit.co/XudMoAHhm5.gif)
-Demonstrating Incorrect Guesses
+Successful Playthrough
 ![](http://g.recordit.co/GbaP1XW0zo.gif)
-Demonstrating Time Limit
-![](gif3-link-here)
-![](gif4-link-here)
+Demonstrating 3 Strike System
+![](http://g.recordit.co/addBoSFhll.gif)
+Demonstrating 10 Second Time Limit
+![](http://g.recordit.co/f3QLrVuS7w.gif)
 
 ## Reflection Questions
 
